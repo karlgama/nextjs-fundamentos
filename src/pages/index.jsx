@@ -1,6 +1,11 @@
-export default function Inicio() {
+import Link from 'next/link'
+
+export default function Inicio( ) {
     return (
         <div>
+            <Link href="/estiloso">
+                Estiloso
+            </Link>
             {Math.random()}
         </div>
     )
