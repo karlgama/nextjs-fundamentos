@@ -13,6 +13,7 @@ export default function Inicio() {
       <Navegador destino="/exemplo" texto="exemplo" cor="crimson"/>
       <Navegador destino="/navegacao" texto="Navegação #01" cor="green"/>
       <Navegador destino="/cliente/sp/123" texto="Navegação #02" cor="blue"/>
+      <Navegador destino="/estado" texto="Componente com estado" cor="pink"/>
       {Math.random()}
     </div>
   );
