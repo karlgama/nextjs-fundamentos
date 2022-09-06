@@ -15,7 +15,7 @@ export default function Inicio() {
       <Navegador destino="/cliente/sp/123" texto="Navegação #02" cor="blue"/>
       <Navegador destino="/estado" texto="Componente com estado" cor="pink"/>
       <Navegador destino="/integracao" texto="Intregração" cor="yellow"/>
-      {Math.random()}
+      <Navegador destino="/estatico" texto="Conteúdo Estático" cor="#fa054a"/>
     </div>
   );
 }
